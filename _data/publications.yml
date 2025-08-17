@@ -1,8 +1,7 @@
 main:
 
   - title: "FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents"
-    authors: Bobo Li<sup>†1</sup>, <strong><u>Yuheng Wang</u></strong><sup>†2</sup>, Hao Fei<sup>*1</sup>, Juncheng Li<sup>3</sup>, Wei Ji<sup>4</sup>, Mong-Li Lee<sup>1</sup>, Wynne Hsu<sup>1</sup><br/>
-      <sup>1</sup>National University of Singapore <sup>2</sup>Wuhan University <sup>3</sup>Zhejiang University <sup>4</sup>Nanjing University<br/>
+    authors: Bobo Li<sup>†</sup>, <strong><u>Yuheng Wang</u></strong><sup>†</sup>, Hao Fei<sup>*</sup>, Juncheng Li, Wei Ji, Mong-Li Lee, Wynne Hsu
     conference_short: ACMMM Datasets 2025
     conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
     pdf: https://arxiv.org/pdf/2506.01520v1
