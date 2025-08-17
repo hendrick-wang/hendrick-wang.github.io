@@ -9,17 +9,11 @@ I'm Yuheng Wang (汪宇恒), a third year undergraduate in **Wuhan University**,
 {% include_relative _includes/publications.md %}
 
 ## Internships
-- 2025.5 - Present&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SAI](https://sai.sjtu.edu.cn/), Shanghai Jiao Tong University (Multi-Agent System)
+- 2025.5 - Present&nbsp;&nbsp;&nbsp;&nbsp;[SAI](https://sai.sjtu.edu.cn/), Shanghai Jiao Tong University (Multi-Agent System)
 - 2024.6 - 2024.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NJUNLP](http://nlp.nju.edu.cn/homepage/), Nanjing University (LLM Interp.), [Best Performanced Award](document/Best_per.pdf)
 - 2024.4 - 2025.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[LACC Laboratory](http://lacc.whu.edu.cn/), Wuhan University (LLMs & Agent)
 
-## Activities
-- 2025.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;World Artificial Intelligence Conference (WAIC) 2025 @Shanghai
-- 2025.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Reviewer, Workshop CogMAEC @ACMMM 2025
-- 2025.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Speaker](https://meeting.tencent.com/cw/lv91pooj2a), Mathematical Modeling Seminar @Shanghai Jiao Tong University
-- 2025.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[HKU Business School Future Leaders Camp 2025](https://www.hkubs.hku.hk/event/) @Hong Kong
-- 2025.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ETH Hangzhou Hackathon @Hangzhou
-- 2024.7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ACM TURC 2024 @Changsha
+{% include_relative _includes/services.md %}
 
 ## Honors and Awards
 - **Huawei Scholarship**, Wuhan University (Top 1% Faculty-wide), 2024 
@@ -37,4 +31,3 @@ I'm Yuheng Wang (汪宇恒), a third year undergraduate in **Wuhan University**,
 - 2022.9 - 2026.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.Eng. in Cyber Science and Engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wuhan University
 - 2019.9 - 2022.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Science Honors Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maanshan No.2 High School
 
-{% include_relative _includes/services.md %}
