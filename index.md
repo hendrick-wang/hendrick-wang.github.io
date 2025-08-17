@@ -6,11 +6,9 @@ layout: homepage
 
 I'm Yuheng Wang (汪宇恒), a third year undergraduate in **Wuhan University**, majoring in **Cyber Science and Engineering**. Previously, I worked as a research intern at the [LACC Laboratory](http://lacc.whu.edu.cn/) in Wuhan University, advised by [Prof. Donghong Ji](http://lacc.whu.edu.cn/index.php/home/read/24) and [Dr. Bobo Li](https://www.libobo.site/).
 
-My research interest lies in Agent and Multi-Agent System.
-
 ## Internships
-- 2025.5 - Present&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SAI](https://sai.sjtu.edu.cn/), Shanghai
-- 2024.6 - 2024.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NJUNLP](http://nlp.nju.edu.cn/homepage/), Nanjing University (Interpretability of LLMs), [Best Performanced Award](document/Best_per.pdf)
+- 2025.5 - Present&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SAI](https://sai.sjtu.edu.cn/), Shanghai Jiaotong University (Multi-Agent System)
+- 2024.6 - 2024.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NJUNLP](http://nlp.nju.edu.cn/homepage/), Nanjing University (LLM Interp.), [Best Performanced Award](document/Best_per.pdf)
 - 2024.4 - 2025.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[LACC Laboratory](http://lacc.whu.edu.cn/), Wuhan University (LLMs & Agent)
 
 ## Activities
@@ -25,9 +23,9 @@ My research interest lies in Agent and Multi-Agent System.
 - **Huawei Scholarship**, Wuhan University (Top 1% Faculty-wide), 2024 
 - **WHU Excellent Scholarship**, Wuhan University, 2022 - 2024
 - **Leijun Innovation Fund**, Wuhan University, 2025
-- **Bronze Medal**, NeurIPS - Ariel Data Challenge 2024, 2024
+- **Bronze Medal**, NeurIPS - Ariel Data Challenge, 2024
 - **Bronze Medal**, Kaggle: LMSYS-Chatbot Arena Human Preference Predictions, 2024
-- **1st Prize**, China National Collegiate Mathematical Modeling Competition (Top 0.5% Nationwide), 2024
+- **1st Prize**, China National Collegiate Mathematical Modeling Competition, 2024
 - **1st Prize**, "Huazhong Cup" Mathematical Modeling Challenge Competition (7/5000+), 2024
 - **1st Prize**, China College Student Computer Design Competition (Central South Division), 2025
 - **2nd Pirze**, China Robot and Artificial Intelligence Competition, 2025
