@@ -23,6 +23,6 @@
 
 <h4 style="margin:0 10px 0;">Hackathon Participant</h4>
 
-<ul style="margin:0 0 5px;">
+<ul style="margin:0 0 20px;">
   <li>ETH Hangzhou Hackathon @Zhejiang University</li>
 </ul>
