@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publication</h2>
+<h2 id="publications" style="margin: 2px 0px -20px;">Publication</h2>
 
 <div class="publications">
 <ol class="bibliography">
@@ -43,7 +43,6 @@
   </div>
 </div>
 </li>
-<br>
 
 {% endfor %}
 
