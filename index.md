@@ -9,6 +9,7 @@ I'm Yuheng Wang (汪宇恒), a third year undergraduate in **Wuhan University**,
 {% include_relative _includes/publications.md %}
 
 ## Internships
+- 2025.8 - Present&nbsp;&nbsp;&nbsp;&nbsp;[TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn/), Tsinghua University (Multi-Agent System)
 - 2025.5 - Present&nbsp;&nbsp;&nbsp;&nbsp;[SAI](https://sai.sjtu.edu.cn/), Shanghai Jiao Tong University (Multi-Agent System)
 - 2024.6 - 2024.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NJUNLP](http://nlp.nju.edu.cn/homepage/), Nanjing University (LLM Interp.), [Best Performanced Award](document/Best_per.pdf)
 - 2024.4 - 2025.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[LACC Laboratory](http://lacc.whu.edu.cn/), Wuhan University (LLMs & Agent)
