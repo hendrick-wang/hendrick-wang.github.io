@@ -32,8 +32,8 @@ I'm Yuheng Wang (汪宇恒), a third year undergraduate in **Wuhan University**,
 - 2022.9 - 2026.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.Eng. in Cyber Science and Engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wuhan University
 - 2019.9 - 2022.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Science Honors Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maanshan No.2 High School
 
-## Visitor Map
+## Sitemap
 
 <div style="text-align:center;">
-<script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=f4efef&w=300&t=n&d=k7gt1qlb_lyshkDh7qppLdft9pS_Vjj_fgeQYAUGSBs&co=080c0f&cmo=ff0c0c&cmn=15f415"></script>
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=CDa45gcVbHMkYeGjy6txqLqLqGnNv-a3cM0ZFJU9vWA"></script>
 </div>
