@@ -34,6 +34,8 @@ I'm Yuheng Wang (汪宇恒), a third year undergraduate in **Wuhan University**,
 
 {% include_relative _includes/blogs.md %}
 
+{% include_relative _includes/lifes.md %}
+
 ## Sitemap
 
 <div style="text-align:center;">
