@@ -4,8 +4,7 @@ layout: homepage
 
 ## Intro
 
-I'm Yuheng Wang (汪宇恒), an incoming Ph.D. student in **Computer Science** at the **School of Artificial Intelligence**, **Shanghai Jiao Tong University** (starting Fall 2026), where I will be advised by the wonderful [Prof. Chen Qian](https://qianc62.github.io/). My research focuses on **intelligent agents** and **multi-agent systems**, with a particular interest in their applications in complex tasks.
-
+I'm Yuheng Wang (汪宇恒), an incoming Ph.D. student at the **School of Artificial Intelligence**, **Shanghai Jiao Tong University** (starting Fall 2026), where I will be advised by the wonderful [Prof. Chen Qian](https://qianc62.github.io/). My research focuses on **intelligent agents** and **multi-agent systems**, with a particular interest in their applications in complex tasks.<br>
 Currently, I am a senior undergraduate in **Wuhan University**, majoring in **Cyber Science and Engineering**. Previously, I worked as a research intern at the [LACC Laboratory](http://lacc.whu.edu.cn/) in Wuhan University, advised by [Prof. Donghong Ji](http://lacc.whu.edu.cn/index.php/home/read/24) and [Dr. Bobo Li](https://www.libobo.site/).
 
 {% include_relative _includes/publications.md %}
