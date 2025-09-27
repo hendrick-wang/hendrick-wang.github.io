@@ -6,6 +6,10 @@ layout: homepage
 
 I'm Yuheng Wang (汪宇恒), a third year undergraduate in **Wuhan University**, majoring in **Cyber Science and Engineering**. Previously, I worked as a research intern at the [LACC Laboratory](http://lacc.whu.edu.cn/) in Wuhan University, advised by [Prof. Donghong Ji](http://lacc.whu.edu.cn/index.php/home/read/24) and [Dr. Bobo Li](https://www.libobo.site/).
 
+I'm Yuheng Wang (汪宇恒), an incoming Ph.D. student in **Computer Science** at the **School of Artificial Intelligence**, **Shanghai Jiao Tong University** (starting Fall 2026), where I will be advised by [Prof. Chen Qian](https://qianc62.github.io/). My research focuses on **intelligent agents** and **multi-agent systems**, with a particular interest in their applications in complex tasks.
+
+Currently, I am a senior undergraduate in **Wuhan University**, majoring in **Cyber Science and Engineering**. Previously, I worked as a research intern at the [LACC Laboratory](http://lacc.whu.edu.cn/) in Wuhan University, advised by [Prof. Donghong Ji](http://lacc.whu.edu.cn/index.php/home/read/24) and [Dr. Bobo Li](https://www.libobo.site/).
+
 {% include_relative _includes/publications.md %}
 
 ## Internships
@@ -31,10 +35,6 @@ I'm Yuheng Wang (汪宇恒), a third year undergraduate in **Wuhan University**,
 ## Educations
 - 2022.9 - 2026.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.Eng. in Cyber Science and Engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wuhan University
 - 2019.9 - 2022.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Science Honors Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maanshan No.2 High School
-
-{% include_relative _includes/blogs.md %}
-
-{% include_relative _includes/lifes.md %}
 
 ## Sitemap
 

@@ -21,8 +21,9 @@
   <li>ACM TURC 2024 @Changsha</li>
 </ul>
 
-<h4 style="margin:0 10px 0;">Hackathon Participant</h4>
+<h4 style="margin:0 10px 0;">Activities Participant</h4>
 
 <ul style="margin:0 0 20px;">
+  <li>Tech Roundtable @Ubiquant Tech</li>
   <li>ETH Hangzhou Hackathon @Zhejiang University</li>
 </ul>
