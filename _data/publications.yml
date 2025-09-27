@@ -10,8 +10,8 @@ main:
     image: ./assets/img/image-1.png
     notes: Oral Presentation
 
-  - title: "FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents"
-    authors: Bobo Li<sup>†</sup>, <strong><u>Yuheng Wang</u></strong><sup>†</sup>, Hao Fei<sup>*</sup>, Juncheng Li, Wei Ji, Mong-Li Lee, Wynne Hsu
+  - title: "AppCopilot: Toward General, Accurate, Long-Horizon, and Efficient Mobile Agent"
+    authors: Jingru Fan<sup>†</sup>, Yufan Dang<sup>†</sup>, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, <strong><u>Yuheng Wang</u></strong>, Zhong Zhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian
     conference_short: ACMMM 2025 Datasets
     conference: ACM International Conference on Multimedia <strong>(ACMMM)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2506.01520v1
