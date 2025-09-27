@@ -12,10 +12,9 @@ main:
 
   - title: "AppCopilot: Toward General, Accurate, Long-Horizon, and Efficient Mobile Agent"
     authors: Jingru Fan<sup>†</sup>, Yufan Dang<sup>†</sup>, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, <strong><u>Yuheng Wang</u></strong>, Zhong Zhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian
-    conference_short: ACMMM 2025 Datasets
-    conference: ACM International Conference on Multimedia <strong>(ACMMM)</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2506.01520v1
-    code: https://formfactory-ai.github.io/
-    bibtex: https://arxiv.org/abs/2506.01520
+    conference_short: Preprint
+    conference: Preprint on arXiv, August 2025.
+    pdf: https://arxiv.org/pdf/2509.02444
+    code: https://github.com/OpenBMB/AppCopilot
+    bibtex: https://arxiv.org/abs/2509.02444
     image: ./assets/img/image-1.png
-    notes: Oral Presentation
