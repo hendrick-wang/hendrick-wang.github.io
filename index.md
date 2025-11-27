@@ -41,4 +41,6 @@ Currently, I am a senior undergraduate in **Wuhan University**, majoring in **Cy
 
 ## Timo's Sitemap
 
+<div style="text-align:center;">
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=sHnoDs_9h4ky-ho9oMsiwzvezL1aiwi7M__8JoGqCMI&cl=ffffff&w=a"></script>
+</div>
