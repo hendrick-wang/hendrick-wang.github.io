@@ -4,7 +4,7 @@ main:
     authors: Bobo Li<sup>†</sup>, <strong><u>Yuheng Wang</u></strong><sup>†</sup>, Hao Fei<sup>*</sup>, Juncheng Li, Wei Ji, Mong-Li Lee, Wynne Hsu
     conference_short: ACMMM 2025
     conference: ACM International Conference on Multimedia <strong>(ACMMM)</strong>, 2025.
-    pdf: https://arxiv.org/pdf/2506.01520v1
+    pdf: https://dl.acm.org/doi/epdf/10.1145/3746027.3758285
     code: https://formfactory-ai.github.io/
     bibtex: https://arxiv.org/abs/2506.01520
     image: ./assets/img/image-1.png
