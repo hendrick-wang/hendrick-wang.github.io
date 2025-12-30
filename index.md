@@ -20,6 +20,7 @@ I’m a campus ambassador for [Ubiquant](https://www.ubiquant.com/). Feel free t
 {% include_relative _includes/services.md %}
 
 ## Honors and Awards
+- **Leijun Scholarship**, Wuhan University, 2025
 - **Huawei Scholarship**, Wuhan University (Top 1% Faculty-wide), 2024 
 - **WHU Excellent Scholarship**, Wuhan University, 2022 - 2024
 - **Leijun Innovation Fund**, Wuhan University, 2025
@@ -32,6 +33,7 @@ I’m a campus ambassador for [Ubiquant](https://www.ubiquant.com/). Feel free t
 - **2nd Pirze**, National Middle School Mathematics Olympiad (Anhui Division), 2021
 
 ## Educations
+- 2026.9 - 2031.6 (expected)&nbsp;&nbsp;&nbsp;&nbsp; PhD. in Computer Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shanghai Jiao Tong University
 - 2022.9 - 2026.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.Eng. in Cyber Science and Engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wuhan University
 - 2019.9 - 2022.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Science Honors Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maanshan No.2 High School
 
