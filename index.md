@@ -7,7 +7,7 @@ layout: homepage
 I'm Yuheng Wang (汪宇恒), an incoming Ph.D. student at the **School of Artificial Intelligence(SAI)**, **Shanghai Jiao Tong University** (starting Fall 2026), where I will be advised by the wonderful [Prof. Chen Qian](https://qianc62.github.io/). My research focuses on **intelligent agents** and **multi-agent systems**, with a particular interest in their applications in complex tasks. I am honored to have led the **[TeachMaster](https://www.teachmaster.cn/)** project under the guidance of Prof. Weinan E and Prof. Chen Qian. <br>
 Currently, I am a senior undergraduate in **Wuhan University**, majoring in **Cyber Science and Engineering**. Previously, I worked as a research intern at the [LACC Laboratory](http://lacc.whu.edu.cn/) in Wuhan University, advised by [Prof. Donghong Ji](http://lacc.whu.edu.cn/index.php/home/read/24) and [Dr. Bobo Li](https://www.libobo.site/).
 <br>
-I’m a campus ambassador for [Ubiquant](https://www.ubiquant.com/). If you have any interest in QR/QD, feel free to drop me an email!
+I’m a campus ambassador for [Ubiquant](https://www.ubiquant.com/). Feel free to reach out about QR/QD roles via email.
 
 {% include_relative _includes/publications.md %}
 
