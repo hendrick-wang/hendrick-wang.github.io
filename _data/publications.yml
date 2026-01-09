@@ -6,7 +6,7 @@ main:
     pdf: https://arxiv.org/pdf/2601.04204
     code: https://www.teachmaster.cn/
     bibtex: https://arxiv.org/abs/2601.04204
-    image: ./assets/img/image-1.png
+    image: ./assets/teachmaster1_00.png
 
   - title: "FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents"
     authors: Bobo Li<sup>†</sup>, <strong><u>Yuheng Wang</u></strong><sup>†</sup>, Hao Fei<sup>*</sup>, Juncheng Li, Wei Ji, Mong-Li Lee, Wynne Hsu
