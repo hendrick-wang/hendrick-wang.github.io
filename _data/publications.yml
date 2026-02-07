@@ -7,6 +7,16 @@ main:
     code: https://www.teachmaster.cn/
     bibtex: https://arxiv.org/abs/2601.04204
     image: ./assets/img/teachmaster1_00.png
+
+  - title: "FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents"
+    authors: Bobo Li<sup>†</sup>, <strong><u>Yuheng Wang</u></strong><sup>†</sup>, Hao Fei<sup>*</sup>, Juncheng Li, Wei Ji, Mong-Li Lee, Wynne Hsu
+    conference_short: ACMMM 2025
+    conference: ACM International Conference on Multimedia <strong>(ACMMM)</strong>, 2025.
+    pdf: https://dl.acm.org/doi/epdf/10.1145/3746027.3758285
+    code: https://formfactory-ai.github.io/
+    bibtex: https://arxiv.org/abs/2506.01520
+    image: ./assets/img/image-1.png
+    notes: Oral Presentation
   
   - title: "Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science"
     authors: Jingru Fan, Dewen Liu, Yufan Dang, Huatao Li, <strong><u>Yuheng Wang</u></strong>, Wei Liu, Feiyu Duan, Xuanwen Ding, Shu Yao, Lin Wu, Ruijie Shi, Wai-Shing Leung, Yuan Cheng, Zhongyu Wei, Cheng Yang, Chen Qian<sup>*</sup>, Zhiyuan Liu<sup>*</sup>, Maosong Sun
@@ -25,18 +35,6 @@ main:
     code: https://arxiv.org/abs/2602.05353
     bibtex: https://arxiv.org/abs/2602.05353
     image: ./assets/img/xray.png
-
-
-
-  - title: "FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents"
-    authors: Bobo Li<sup>†</sup>, <strong><u>Yuheng Wang</u></strong><sup>†</sup>, Hao Fei<sup>*</sup>, Juncheng Li, Wei Ji, Mong-Li Lee, Wynne Hsu
-    conference_short: ACMMM 2025
-    conference: ACM International Conference on Multimedia <strong>(ACMMM)</strong>, 2025.
-    pdf: https://dl.acm.org/doi/epdf/10.1145/3746027.3758285
-    code: https://formfactory-ai.github.io/
-    bibtex: https://arxiv.org/abs/2506.01520
-    image: ./assets/img/image-1.png
-    notes: Oral Presentation
 
   - title: "AppCopilot: Toward General, Accurate, Long-Horizon, and Efficient Mobile Agent"
     authors: Jingru Fan<sup>†</sup>, Yufan Dang<sup>†</sup>, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, <strong><u>Yuheng Wang</u></strong>, Zhong Zhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian
