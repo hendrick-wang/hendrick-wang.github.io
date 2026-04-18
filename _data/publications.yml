@@ -1,8 +1,8 @@
 main:
   - title: "Generative Teaching via Code"
     authors: <strong><u>Yuheng Wang</u></strong>, Runde Yang, Lin Wu, Jie Zhang, Jingru Fan, Ruoyu Fu, Tianle Zhou, Huatao Li, Siheng Chen, Weinan E, Chen Qian<sup>*</sup>
-    conference_short: Preprint
-    conference: Preprint on arXiv, January 2026.
+    conference_short: ACL 2026
+    conference: Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), January 2026.
     pdf: https://arxiv.org/pdf/2601.04204
     code: https://www.teachmaster.cn/
     bibtex: https://arxiv.org/abs/2601.04204
@@ -10,8 +10,8 @@ main:
 
   - title: "FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents"
     authors: Bobo Li<sup>†</sup>, <strong><u>Yuheng Wang</u></strong><sup>†</sup>, Hao Fei<sup>*</sup>, Juncheng Li, Wei Ji, Mong-Li Lee, Wynne Hsu
-    conference_short: ACMMM 2025
-    conference: ACM International Conference on Multimedia <strong>(ACMMM)</strong>, 2025.
+    conference_short: ACM MM 2025
+    conference: ACM International Conference on Multimedia (<strong>ACM MM<strong>), 2025
     pdf: https://dl.acm.org/doi/epdf/10.1145/3746027.3758285
     code: https://formfactory-ai.github.io/
     bibtex: https://arxiv.org/abs/2506.01520
