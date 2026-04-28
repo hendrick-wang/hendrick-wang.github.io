@@ -1,5 +1,5 @@
 main:
-  - title: "Generative Teaching via Code"
+  - title: "TeachMaster: Generative Teaching via Code"
     authors: <strong><u>Yuheng Wang</u></strong>, Runde Yang, Lin Wu, Jie Zhang, Jingru Fan, Ruoyu Fu, Tianle Zhou, Huatao Li, Siheng Chen, Weinan E, Chen Qian<sup>*</sup>
     conference_short: ACL 2026
     conference: Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>), 2026.
