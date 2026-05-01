@@ -17,6 +17,15 @@ main:
     bibtex: https://arxiv.org/abs/2506.01520
     image: ./assets/img/image-1.png
     notes: Oral Presentation
+
+  - title: "AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction"
+    authors: Ruijie Shi, Houbin Zhang, Yuecheng Han, <strong><u>Yuheng Wang</u></strong>, Jingru Fan, Runde Yang, Yufan Dang, Huatao Li, Dewen Liu, Yuan Cheng, Chen Qian<sup>*</sup>
+    conference_short: ICML 2026
+    conference: International Conference on Machine Learning (<strong>ICML</strong>), 2026.
+    pdf: https://arxiv.org/pdf/2602.05353
+    code: https://arxiv.org/abs/2602.05353
+    bibtex: https://arxiv.org/abs/2602.05353
+    image: ./assets/img/xray.png
   
   - title: "Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science"
     authors: Jingru Fan, Dewen Liu, Yufan Dang, Huatao Li, <strong><u>Yuheng Wang</u></strong>, Wei Liu, Feiyu Duan, Xuanwen Ding, Shu Yao, Lin Wu, Ruijie Shi, Wai-Shing Leung, Yuan Cheng, Zhongyu Wei, Cheng Yang, Chen Qian<sup>*</sup>, Zhiyuan Liu<sup>*</sup>, Maosong Sun
@@ -26,15 +35,6 @@ main:
     code: https://arxiv.org/abs/2602.05289
     bibtex: https://arxiv.org/abs/2602.05289
     image: ./assets/img/science.png
-
-  - title: "AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction"
-    authors: Ruijie Shi, Houbin Zhang, Yuecheng Han, <strong><u>Yuheng Wang</u></strong>, Jingru Fan, Runde Yang, Yufan Dang, Huatao Li, Dewen Liu, Yuan Cheng, Chen Qian<sup>*</sup>
-    conference_short: Preprint
-    conference: Preprint on arXiv, February 2026.
-    pdf: https://arxiv.org/pdf/2602.05353
-    code: https://arxiv.org/abs/2602.05353
-    bibtex: https://arxiv.org/abs/2602.05353
-    image: ./assets/img/xray.png
 
   - title: "AppCopilot: Toward General, Accurate, Long-Horizon, and Efficient Mobile Agent"
     authors: Jingru Fan<sup>†</sup>, Yufan Dang<sup>†</sup>, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, <strong><u>Yuheng Wang</u></strong>, Zhong Zhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian
