@@ -28,7 +28,7 @@ main:
     image: ./assets/img/xray.png
   
   - title: "PRISM: A Benchmark for Programmatic Spatial-Temporal Reasoning"
-    authors: Qiran Zhang, Yuheng Wang, Runde Yang, Lin Wu, Jingru Fan, Shu Yao, Jie Zhang, Tianle Zhou, Huatao Li, Ruijie Shi, Yihan Li, Chen Qian<sup>*</sup>
+    authors: Qiran Zhang<sup>†</sup>, <strong><u>Yuheng Wang</u></strong><sup>†</sup>, Runde Yang, Lin Wu, Jingru Fan, Shu Yao, Jie Zhang, Tianle Zhou, Huatao Li, Ruijie Shi, Yihan Li, Chen Qian<sup>*</sup>
     conference_short: Preprint
     conference: Preprint on arXiv, May 2026.
     pdf: https://arxiv.org/pdf/2602.05353
