@@ -27,6 +27,15 @@ main:
     bibtex: https://arxiv.org/abs/2602.05353
     image: ./assets/img/xray.png
   
+  - title: "PRISM: A Benchmark for Programmatic Spatial-Temporal Reasoning"
+    authors: Qiran Zhang, Yuheng Wang, Runde Yang, Lin Wu, Jingru Fan, Shu Yao, Jie Zhang, Tianle Zhou, Huatao Li, Ruijie Shi, Yihan Li, Chen Qian<sup>*</sup>
+    conference_short: Preprint
+    conference: Preprint on arXiv, May 2026.
+    pdf: https://arxiv.org/pdf/2602.05353
+    code: https://github.com/positionprivacy/PRISM
+    bibtex: https://arxiv.org/abs/2602.05353
+    image: ./assets/img/PRISM.png
+  
   - title: "Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science"
     authors: Jingru Fan, Dewen Liu, Yufan Dang, Huatao Li, <strong><u>Yuheng Wang</u></strong>, Wei Liu, Feiyu Duan, Xuanwen Ding, Shu Yao, Lin Wu, Ruijie Shi, Wai-Shing Leung, Yuan Cheng, Zhongyu Wei, Cheng Yang, Chen Qian<sup>*</sup>, Zhiyuan Liu<sup>*</sup>, Maosong Sun
     conference_short: Preprint
