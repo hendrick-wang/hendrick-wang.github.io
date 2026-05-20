@@ -12,6 +12,7 @@ I’m also a member of [Ubiquant](https://www.ubiquant.com/). Feel free to reach
 {% include_relative _includes/publications.md %}
 
 ## Internships
+- 2026.5 - Present&nbsp;&nbsp;&nbsp;&nbsp;[Tencent Elite Program](https://join.qq.com/login.html?state=https%3A%2F%2Fjoin.qq.com%2Fprogress.html), Tencent (Agentic RL)
 - 2025.8 - Present&nbsp;&nbsp;&nbsp;&nbsp;[TsinghuaNLP](https://nlp.csai.tsinghua.edu.cn/), Tsinghua University (Multi-Agent System)
 - 2025.5 - Present&nbsp;&nbsp;&nbsp;&nbsp;[SAI](https://sai.sjtu.edu.cn/), Shanghai Jiao Tong University (Multi-Agent System)
 - 2024.6 - 2024.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[NJUNLP](http://nlp.nju.edu.cn/homepage/), Nanjing University (LLM Interp.), [Best Performanced Award](document/Best_per.pdf)
