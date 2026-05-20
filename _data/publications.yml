@@ -31,9 +31,9 @@ main:
     authors: Qiran Zhang<sup>†</sup>, <strong><u>Yuheng Wang</u></strong><sup>†</sup>, Runde Yang, Lin Wu, Jingru Fan, Shu Yao, Jie Zhang, Tianle Zhou, Huatao Li, Ruijie Shi, Yihan Li, Chen Qian<sup>*</sup>
     conference_short: Preprint
     conference: Preprint on arXiv, May 2026.
-    pdf: https://arxiv.org/pdf/2602.05353
+    pdf: https://arxiv.org/pdf/2605.19382
     code: https://github.com/positionprivacy/PRISM
-    bibtex: https://arxiv.org/abs/2602.05353
+    bibtex: https://arxiv.org/abs/2605.19382
     image: ./assets/img/PRISM.png
   
   - title: "Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science"
