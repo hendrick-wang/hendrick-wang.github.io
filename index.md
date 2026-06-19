@@ -5,7 +5,7 @@ layout: homepage
 ## Intro
 
 I'm Yuheng Wang (汪宇恒), an incoming Ph.D. student at the **School of Artificial Intelligence(SAI)**, **Shanghai Jiao Tong University** (starting Fall 2026), where I will be advised by the wonderful [Prof. Chen Qian](https://qianc62.github.io/). My research focuses on **intelligent agents** and **multi-agent systems**, with a particular interest in their applications in complex tasks. I am honored to have led the **[TeachMaster](https://www.teachmaster.cn/)** project under the guidance of [Prof. Weinan E](https://web.math.princeton.edu/~weinan/) and Prof. Chen Qian. I have also been selected for the **[Tencent Elite Program](https://join.qq.com/login.html?state=https%3A%2F%2Fjoin.qq.com%2Fprogress.html)**, where I am currently pursuing a research internship.<br>
-Currently, I am a senior undergraduate in **Wuhan University**. Previously, I worked as a research intern at the [LACC Laboratory](http://lacc.whu.edu.cn/), advised by [Prof. Donghong Ji](http://lacc.whu.edu.cn/index.php/home/read/24) and [Dr. Bobo Li](https://www.libobo.site/).
+I received my B.Eng. degree from Wuhan University in 2026. Previously, I worked as a research intern at the [LACC Laboratory](http://lacc.whu.edu.cn/), advised by [Prof. Donghong Ji](http://lacc.whu.edu.cn/index.php/home/read/24) and [Dr. Bobo Li](https://www.libobo.site/).
 <br>
 I’m also a member of [Ubiquant](https://www.ubiquant.com/). Feel free to reach out about QR/QD roles via email.
 
@@ -21,6 +21,7 @@ I’m also a member of [Ubiquant](https://www.ubiquant.com/). Feel free to reach
 {% include_relative _includes/services.md %}
 
 ## Honors and Awards
+- **Outstanding Graduate**, Wuhan University, 2026
 - **Leijun Scholarship**, Wuhan University, 2025
 - **Huawei Scholarship**, Wuhan University (Top 1% Faculty-wide), 2024 
 - **WHU Excellent Scholarship**, Wuhan University, 2022 - 2024
@@ -36,7 +37,6 @@ I’m also a member of [Ubiquant](https://www.ubiquant.com/). Feel free to reach
 ## Educations
 - 2026.9 - 2031.6 (expected)&nbsp;&nbsp;&nbsp;&nbsp; Ph.D. in Computer Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shanghai Jiao Tong University
 - 2022.9 - 2026.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.Eng. in Cyber Science and Engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wuhan University
-- 2019.9 - 2022.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Science Honors Class&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maanshan No.2 High School
 
 
 <div style="text-align:center;">
