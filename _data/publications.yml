@@ -44,12 +44,3 @@ main:
     code: https://arxiv.org/abs/2602.05289
     bibtex: https://arxiv.org/abs/2602.05289
     image: ./assets/img/science.png
-
-  - title: "AppCopilot: Toward General, Accurate, Long-Horizon, and Efficient Mobile Agent"
-    authors: Jingru Fan<sup>†</sup>, Yufan Dang<sup>†</sup>, Jingyao Wu, Huatao Li, Runde Yang, Xiyuan Yang, <strong><u>Yuheng Wang</u></strong>, Zhong Zhang, Yaxi Lu, Yankai Lin, Zhiyuan Liu, Dahai Li, Chen Qian
-    conference_short: Preprint
-    conference: Preprint on arXiv, August 2025.
-    pdf: https://arxiv.org/pdf/2509.02444
-    code: https://github.com/OpenBMB/AppCopilot
-    bibtex: https://arxiv.org/abs/2509.02444
-    image: ./assets/img/image-2.png
