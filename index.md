@@ -33,7 +33,7 @@ I’m a member of [Ubiquant](https://www.ubiquant.com/), feel free to reach out 
 - **Bronze Medal**, Kaggle: LMSYS-Chatbot Arena Human Preference Predictions, 2024
 - **1st Prize**, China National Collegiate Mathematical Modeling Competition, 2024
 - **1st Prize**, "Huazhong Cup" Mathematical Modeling Challenge Competition (7/5000+), 2024
-- **1st Prize**, China College Student Computer Design Competition (Central South Division), 2025
+- **1st Prize**, China College Student Computer Design Competition, 2025
 - **2nd Pirze**, China Robot and Artificial Intelligence Competition, 2025
 - **2nd Pirze**, National Middle School Mathematics Olympiad (Anhui Division), 2021
 
