@@ -37,11 +37,6 @@ I’m a member of [Ubiquant](https://www.ubiquant.com/), feel free to reach out 
 - **2nd Pirze**, China Robot and Artificial Intelligence Competition, 2025
 - **2nd Pirze**, National Middle School Mathematics Olympiad (Anhui Division), 2021
 
-## Educations
-- 2026.9 - 2031.6 (expected)&nbsp;&nbsp;&nbsp;&nbsp; Ph.D. in Computer Science&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shanghai Jiao Tong University
-- 2022.9 - 2026.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.Eng. in Cyber Science and Engineering&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wuhan University
-
-
 <div style="text-align:center;">
 <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=080808&w=300&t=n&d=CDa45gcVbHMkYeGjy6txqLqLqGnNv-a3cM0ZFJU9vWA&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080"></script>
 </div>
