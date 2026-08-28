@@ -4,12 +4,15 @@ layout: homepage
 
 ## Intro
 
-I'm Yuheng Wang (汪宇恒), an incoming Ph.D. student at the **School of Artificial Intelligence(SAI)**, **Shanghai Jiao Tong University** (starting Fall 2026), where I will be advised by the wonderful [Prof. Chen Qian](https://qianc62.github.io/). My research focuses on **intelligent agents** and **multi-agent systems**, with a particular interest in their applications in complex tasks. I am honored to have led the **[TeachMaster](https://www.teachmaster.cn/)** project under the guidance of [Prof. Weinan E](https://web.math.princeton.edu/~weinan/) and Prof. Chen Qian. 
+
+I'm **Yuheng Wang (汪宇恒)**, a first-year Ph.D. student at the **School of Artificial Intelligence (SAI), Shanghai Jiao Tong University**, advised by the wonderful [Prof. Chen Qian](https://qianc62.github.io/). My research focuses on **Agentic RL** and **Multi-agent Systems**, with a particular interest in how agents collaborate, reason, and solve complex tasks.
+I lead the [**TeachMaster**](https://www.teachmaster.cn/) project under the guidance of [Prof. Weinan E](https://web.math.princeton.edu/~weinan/) and Prof. Chen Qian. 
 <br>
-I have been selected for the **[Tencent Elite Program](https://join.qq.com/login.html?state=https%3A%2F%2Fjoin.qq.com%2Fprogress.html)** as a research intern, focusing on agentic multimodal generation.<br>
-I received my bachelor’s degree from Wuhan University in 2026, where I worked a research intern at the [LACC Laboratory](http://lacc.whu.edu.cn/), advised by [Prof. Donghong Ji](http://lacc.whu.edu.cn/index.php/home/read/24) and [Dr. Bobo Li](https://www.libobo.site/).
+I am also a research intern at **Tencent**, where I was selected for the [**Tencent Elite Program**](https://join.qq.com/login.html?state=https%3A%2F%2Fjoin.qq.com%2Fprogress.html) and work on **agentic multimodal generation**.
 <br>
-I’m a member of [Ubiquant](https://www.ubiquant.com/), feel free to reach out about QR/QD roles via email. I’m also a member of the [MLNLP](https://mlnlpworld.com/) Student Committee.
+I received my bachelor's degree from **Wuhan University** in 2026. During my undergraduate studies, I conducted research at the [LACC Laboratory](http://lacc.whu.edu.cn/), advised by [Prof. Donghong Ji](http://lacc.whu.edu.cn/index.php/home/read/24) and [Dr. Bobo Li](https://www.libobo.site/).
+<br>
+I am a member of [**Ubiquant**](https://www.ubiquant.com/) and the [**MLNLP**](https://mlnlpworld.com/) Student Committee. Feel free to reach out via email if you are interested in research collaboration or QR/QD opportunities.
 
 {% include_relative _includes/publications.md %}
 
