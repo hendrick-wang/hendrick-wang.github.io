@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yuheng Wang</title>
+  <meta name="author" content="Yuheng Wang" />
+  <link rel="icon" href="./assets/img/favicon.png" />
+  <link rel="stylesheet" href="./style.css" />
+  <script>
+    // Apply saved theme before render to avoid FOUC
+    (function () {
+      var t = localStorage.getItem('theme') || 'light';
+      if (t !== 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+
+<div class="theme-switch">
+  <button type="button" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+  </button>
+</div>
+
+<main class="wrap">
+
+  <!-- =========== HEADER =========== -->
+  <header class="header">
+    <div class="header-top">
+      <div class="header-heading">
+        <h1 class="name">Yuheng Wang</h1>
+        <nav class="contact">
+          <a href="mailto:yuhengwang@sjtu.edu.cn">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            <span>Email</span>
+          </a>
+          <a href="https://scholar.google.com.hk/citations?hl=zh-CN&amp;user=5S2upPUAAAAJ">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 1 9l11 7 9-5.727V17h2V9zM5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>
+            <span>Scholar</span>
+          </a>
+          <a href="https://github.com/hendrick-wang">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12a11.5 11.5 0 0 0 7.86 10.92c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11.03 11.03 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.41.35.78 1.05.78 2.12v3.14c0 .31.21.67.8.55A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://x.com/wnghng529582725">
+            <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2H21.5l-7.5 8.57L23 22h-6.844l-5.36-6.99L4.7 22H1.44l8.02-9.17L1 2h7.014l4.845 6.4Zm-1.2 18h1.8L7.05 4H5.13Z"/></svg>
+            <span>Twitter</span>
+          </a>
+          <a href="./chat.html" class="cta">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4.5" width="18" height="16" rx="2"/><path d="M3 9h18"/><path d="M8 3v3"/><path d="M16 3v3"/></svg>
+            <span>Book a chat</span>
+          </a>
+        </nav>
+      </div>
+      <div class="avatar">
+        <a href="./document/life_figure.png"><img src="./document/life_figure.png" alt="profile photo" /></a>
+      </div>
+    </div>
+
+    <p class="bio">
+      I'm Yuheng Wang (汪宇恒), a first-year Ph.D. student at the
+      <a href="https://sai.sjtu.edu.cn/">School of Artificial Intelligence (SAI), Shanghai Jiao Tong University</a>,
+      advised by the wonderful <a href="https://qianc62.github.io/">Prof. Chen Qian</a>.
+      My research focuses on <strong>Agentic RL</strong> and <strong>Multi-agent Systems</strong>,
+      with a particular interest in how agents collaborate, reason, and solve complex tasks.
+      I lead the <a href="https://www.teachmaster.cn/">TeachMaster</a> project under the guidance of
+      <a href="https://web.math.princeton.edu/~weinan/">Prof. Weinan E</a> and Prof. Chen Qian.
+    </p>
+
+    <p class="bio">
+      I am also a research intern at Tencent, where I was selected for the
+      <a href="https://join.qq.com/login.html?state=https%3A%2F%2Fjoin.qq.com%2Fprogress.html">Tencent Elite Program</a>
+      and work on agentic multimodal generation.
+    </p>
+
+    <p class="bio">
+      I received my bachelor's degree from Wuhan University in 2026. During my undergraduate studies, I conducted research at the
+      <a href="http://lacc.whu.edu.cn/">LACC Laboratory</a>, advised by
+      <a href="http://lacc.whu.edu.cn/index.php/home/read/24">Prof. Donghong Ji</a> and
+      <a href="https://www.libobo.site/">Dr. Bobo Li</a>.
+    </p>
+
+    <p class="bio">
+      I am a member of the <a href="https://mlnlpworld.com/">MLNLP</a> Student Committee and
+      <a href="https://www.ubiquant.com/">Ubiquant</a>.
+      Feel free to reach out via email if you are interested in research collaboration or QR/QD opportunities.
+    </p>
+  </header>
+
+  <!-- =========== 01 · PUBLICATIONS =========== -->
+  <section class="section">
+    <div class="section-head">
+      <h2 class="section-title">Selected Publications</h2>
+      <p class="section-sub"><sup>†</sup> co-first-author &nbsp; · &nbsp; <sup>*</sup> corresponding author</p>
+    </div>
+
+    <div class="pubs">
+
+      <article class="pub">
+        <div class="pub-thumb"><img src="./assets/img/teachmaster1_00.png" alt="TeachMaster" /></div>
+        <div class="pub-body">
+          <a class="pub-title" href="https://aclanthology.org/2026.acl-industry.7/">TeachMaster: Generative Teaching via Code</a>
+          <p class="pub-authors">
+            <span class="me">Yuheng Wang</span>, Runde Yang, Lin Wu, Jie Zhang, Jingru Fan, Ruoyu Fu, Tianle Zhou, Huatao Li, Siheng Chen, Weinan E, Chen Qian<sup>*</sup>
+          </p>
+          <span class="pub-venue">ACL 2026</span>
+          <p class="pub-links">
+            <a href="https://aclanthology.org/2026.acl-industry.7/">PDF</a>
+            <span class="sep">/</span>
+            <a href="https://www.teachmaster.cn/">Code</a>
+            <span class="sep">/</span>
+            <a href="https://aclanthology.org/2026.acl-industry.7/">BibTeX</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="pub-thumb"><img src="./assets/img/image-1.png" alt="FormFactory" /></div>
+        <div class="pub-body">
+          <a class="pub-title" href="https://dl.acm.org/doi/epdf/10.1145/3746027.3758285">FormFactory: An Interactive Benchmarking Suite for Multimodal Form-Filling Agents</a>
+          <p class="pub-authors">
+            Bobo Li<sup>†</sup>, <span class="me">Yuheng Wang</span><sup>†</sup>, Hao Fei<sup>*</sup>, Juncheng Li, Wei Ji, Mong-Li Lee, Wynne Hsu
+          </p>
+          <span class="pub-venue">ACM MM 2025</span><span class="oral">Oral</span>
+          <p class="pub-links">
+            <a href="https://dl.acm.org/doi/epdf/10.1145/3746027.3758285">PDF</a>
+            <span class="sep">/</span>
+            <a href="https://formfactory-ai.github.io/">Code</a>
+            <span class="sep">/</span>
+            <a href="https://arxiv.org/abs/2506.01520">BibTeX</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="pub-thumb"><img src="./assets/img/xray.png" alt="AgentXRay" /></div>
+        <div class="pub-body">
+          <a class="pub-title" href="https://arxiv.org/pdf/2602.05353">AgentXRay: White-Boxing Agentic Systems via Workflow Reconstruction</a>
+          <p class="pub-authors">
+            Ruijie Shi, Houbin Zhang, Yuecheng Han, <span class="me">Yuheng Wang</span>, Jingru Fan, Runde Yang, Yufan Dang, Huatao Li, Dewen Liu, Yuan Cheng, Chen Qian<sup>*</sup>
+          </p>
+          <span class="pub-venue">ICML 2026</span>
+          <p class="pub-links">
+            <a href="https://arxiv.org/pdf/2602.05353">PDF</a>
+            <span class="sep">/</span>
+            <a href="https://arxiv.org/abs/2602.05353">Code</a>
+            <span class="sep">/</span>
+            <a href="https://arxiv.org/abs/2602.05353">BibTeX</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="pub-thumb"><img src="./assets/img/PRISM.png" alt="PRISM" /></div>
+        <div class="pub-body">
+          <a class="pub-title" href="https://arxiv.org/pdf/2605.19382">PRISM: A Benchmark for Programmatic Spatial-Temporal Reasoning</a>
+          <p class="pub-authors">
+            Qiran Zhang<sup>†</sup>, <span class="me">Yuheng Wang</span><sup>†</sup>, Runde Yang, Lin Wu, Jingru Fan, Shu Yao, Jie Zhang, Tianle Zhou, Huatao Li, Ruijie Shi, Yihan Li, Chen Qian<sup>*</sup>
+          </p>
+          <span class="pub-venue">Preprint · May 2026</span>
+          <p class="pub-links">
+            <a href="https://arxiv.org/pdf/2605.19382">PDF</a>
+            <span class="sep">/</span>
+            <a href="https://github.com/positionprivacy/PRISM">Code</a>
+            <span class="sep">/</span>
+            <a href="https://arxiv.org/abs/2605.19382">BibTeX</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="pub">
+        <div class="pub-thumb"><img src="./assets/img/science.png" alt="Science of Collective AI" /></div>
+        <div class="pub-body">
+          <a class="pub-title" href="https://arxiv.org/pdf/2602.05289">Towards a Science of Collective AI: LLM-based Multi-Agent Systems Need a Transition from Blind Trial-and-Error to Rigorous Science</a>
+          <p class="pub-authors">
+            Jingru Fan, Dewen Liu, Yufan Dang, Huatao Li, <span class="me">Yuheng Wang</span>, Wei Liu, Feiyu Duan, et al., Chen Qian<sup>*</sup>, Zhiyuan Liu<sup>*</sup>, Maosong Sun
+          </p>
+          <span class="pub-venue">Preprint · February 2026</span>
+          <p class="pub-links">
+            <a href="https://arxiv.org/pdf/2602.05289">PDF</a>
+            <span class="sep">/</span>
+            <a href="https://arxiv.org/abs/2602.05289">Code</a>
+            <span class="sep">/</span>
+            <a href="https://arxiv.org/abs/2602.05289">BibTeX</a>
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- =========== 02 · INTERNSHIPS =========== -->
+  <section class="section">
+    <div class="section-head">
+      <h2 class="section-title">Internships</h2>
+    </div>
+
+    <ul class="plain-list">
+      <li>
+        <span class="when">2026.5 — Now</span>
+        <span class="what"><span class="place"><a href="https://join.qq.com/login.html?state=https%3A%2F%2Fjoin.qq.com%2Fprogress.html">Tencent Elite Program</a></span>, Tencent · Agentic RL</span>
+      </li>
+      <li>
+        <span class="when">2025.8 — Now</span>
+        <span class="what"><span class="place"><a href="https://nlp.csai.tsinghua.edu.cn/">TsinghuaNLP</a></span>, Tsinghua University · Multi-Agent Systems</span>
+      </li>
+      <li>
+        <span class="when">2025.5 — 2025.8</span>
+        <span class="what"><span class="place"><a href="https://sai.sjtu.edu.cn/">SAI</a></span>, Shanghai Jiao Tong University · Multi-Agent Systems</span>
+      </li>
+      <li>
+        <span class="when">2024.6 — 2024.8</span>
+        <span class="what"><span class="place"><a href="http://nlp.nju.edu.cn/homepage/">NJUNLP</a></span>, Nanjing University · LLM Interpretability · <a href="document/Best_per.pdf">Best Performance Award</a></span>
+      </li>
+      <li>
+        <span class="when">2024.4 — 2025.6</span>
+        <span class="what"><span class="place"><a href="http://lacc.whu.edu.cn/">LACC Laboratory</a></span>, Wuhan University · LLMs &amp; Agents</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- =========== 03 · ACTIVITIES =========== -->
+  <section class="section">
+    <div class="section-head">
+      <h2 class="section-title">Activities</h2>
+    </div>
+
+    <p class="subhead">Guest Speaker</p>
+    <ul class="plain-list">
+      <li><span class="when">2025</span><span class="what"><a href="https://meeting.tencent.com/cw/lv91pooj2a">Mathematical Modeling Seminar</a>, Shanghai Jiao Tong University</span></li>
+      <li><span class="when">2025</span><span class="what">Mathematical Modeling Workshop, Wuhan University</span></li>
+      <li><span class="when">2026</span><span class="what">Tech Roundtable, Ubiquant</span></li>
+    </ul>
+
+    <p class="subhead">Invited Attendee</p>
+    <ul class="plain-list">
+      <li><span class="when">2026</span><span class="what"><em>Beyond LLM</em> Closed-Door Summit, Sequoia Capital</span></li>
+    </ul>
+
+    <p class="subhead">Reviewer</p>
+    <ul class="plain-list">
+      <li><span class="when">2026</span><span class="what">ACM MM · ACM International Conference on Multimedia</span></li>
+      <li><span class="when">2026</span><span class="what">ICML · International Conference on Machine Learning</span></li>
+      <li><span class="when">2026</span><span class="what">Nature Communications</span></li>
+      <li><span class="when">2026</span><span class="what">NLPCC · CCF Conference on Natural Language Processing and Chinese Computing</span></li>
+    </ul>
+  </section>
+
+  <!-- =========== 04 · HONORS =========== -->
+  <section class="section">
+    <div class="section-head">
+      <h2 class="section-title">Honors &amp; Awards</h2>
+    </div>
+
+    <ul class="plain-list">
+      <li><span class="when">2026</span><span class="what">Outstanding Graduate, Wuhan University</span></li>
+      <li><span class="when">2025</span><span class="what">Presidential Scholarship (¥100,000), Hong Kong University</span></li>
+      <li><span class="when">2025</span><span class="what">Leijun Scholarship, Wuhan University</span></li>
+      <li><span class="when">2025</span><span class="what">Leijun Innovation Fund, Wuhan University</span></li>
+      <li><span class="when">2025</span><span class="what">1st Prize, China College Student Computer Design Competition</span></li>
+      <li><span class="when">2025</span><span class="what">2nd Prize, China Robot and Artificial Intelligence Competition</span></li>
+      <li><span class="when">2024</span><span class="what">Huawei Scholarship, Wuhan University (Top 1% Faculty-wide)</span></li>
+      <li><span class="when">2024</span><span class="what">Bronze Medal, NeurIPS – Ariel Data Challenge</span></li>
+      <li><span class="when">2024</span><span class="what">Bronze Medal, Kaggle · LMSYS Chatbot Arena Human Preference</span></li>
+      <li><span class="when">2024</span><span class="what">1st Prize, China National Collegiate Mathematical Modeling</span></li>
+      <li><span class="when">2024</span><span class="what">1st Prize, "Huazhong Cup" Modeling Challenge (7 / 5000+)</span></li>
+      <li><span class="when">2022 — 2024</span><span class="what">WHU Excellent Scholarship, Wuhan University</span></li>
+      <li><span class="when">2021</span><span class="what">2nd Prize, National Middle School Mathematics Olympiad (Anhui)</span></li>
+    </ul>
+  </section>
+
+  <footer class="footer">
+    <span>© Yuheng Wang</span>
+    <span>Last updated September 2026</span>
+  </footer>
+
+</main>
+
+<script>
+  (function () {
+    var root = document.documentElement;
+    var btn = document.getElementById('theme-toggle');
+    function apply(t) {
+      if (t === 'light') root.removeAttribute('data-theme');
+      else root.setAttribute('data-theme', t);
+      localStorage.setItem('theme', t);
+    }
+    apply(localStorage.getItem('theme') || 'light');
+    btn.addEventListener('click', function () {
+      var cur = localStorage.getItem('theme') || 'light';
+      apply(cur === 'ink' ? 'light' : 'ink');
+    });
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,269 @@
+/* ============================================================
+   Chat page — WeChat + Email booking
+   ============================================================ */
+
+.back { margin: 0 0 24px; font-size: 13px; }
+.back a { color: var(--muted); border-bottom: 1px solid var(--hairline); padding-bottom: 1px; }
+.back a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+.chat-header {
+  padding-bottom: 32px;
+}
+.chat-header .name {
+  font-family: var(--font-display);
+  font-size: 44px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  line-height: 1.1;
+  margin: 0 0 14px;
+}
+.chat-header .bio {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #232323;
+  margin: 0;
+  max-width: 640px;
+}
+
+.chat-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 32px 0 0;
+}
+
+.chat-card {
+  min-width: 0;
+}
+.chat-title {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+  margin: 0 0 8px;
+  color: var(--fg);
+}
+.chat-desc {
+  font-size: 13.5px;
+  color: var(--muted);
+  margin: 0 0 20px;
+  line-height: 1.6;
+}
+
+/* ---------- WeChat block ---------- */
+.wechat-block {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 20px;
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  background: var(--card-bg);
+}
+.qr {
+  position: relative;
+  width: 180px;
+  aspect-ratio: 4 / 5;
+  flex-shrink: 0;
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--bg);
+}
+.qr img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.qr-fallback {
+  display: none;
+  position: absolute;
+  inset: 0;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  color: var(--faint);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  background: repeating-linear-gradient(
+    45deg,
+    #f8f8f8 0 6px,
+    #f0f0f0 6px 12px
+  );
+}
+.wechat-meta {
+  min-width: 0;
+  flex: 1;
+}
+.wechat-meta .label {
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin: 0 0 4px;
+}
+.wechat-meta .value {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  color: var(--fg);
+  margin: 0 0 12px;
+  word-break: break-all;
+}
+.copy-btn {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  padding: 4px 12px;
+  background: var(--bg);
+  border: 1px solid var(--hairline);
+  border-radius: 999px;
+  color: var(--fg);
+  cursor: pointer;
+  transition: color .15s, border-color .15s, background .15s;
+}
+.copy-btn:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ---------- Booking form ---------- */
+.book-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 16px;
+}
+.book-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.book-form label.full { grid-column: 1 / -1; }
+.book-form input,
+.book-form select,
+.book-form textarea {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 8px 10px;
+  outline: none;
+  transition: border-color .15s, box-shadow .15s;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.book-form textarea { resize: vertical; }
+.book-form input:focus,
+.book-form select:focus,
+.book-form textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(15, 98, 208, 0.12);
+}
+
+.submit-btn {
+  grid-column: 1 / -1;
+  justify-self: start;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  padding: 9px 20px;
+  background: var(--fg);
+  color: #fff;
+  border: 1px solid var(--fg);
+  border-radius: 999px;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background .15s, color .15s, border-color .15s;
+}
+.submit-btn:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.form-note {
+  grid-column: 1 / -1;
+  font-size: 12px;
+  color: var(--faint);
+  margin: 0;
+}
+
+/* ---------- Mail preview ---------- */
+.mail-preview {
+  grid-column: 1 / -1;
+  margin-top: 8px;
+  padding: 18px 20px;
+  border: 1px solid var(--hairline);
+  border-radius: 6px;
+  background: var(--card-bg);
+}
+.mail-preview .preview-label {
+  font-size: 11.5px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--faint);
+  margin: 0 0 12px;
+}
+.mail-preview .preview-row {
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
+  padding: 4px 0;
+  border-bottom: 1px dashed var(--hairline);
+  align-items: baseline;
+}
+.mail-preview .preview-key {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  min-width: 60px;
+}
+.mail-preview code {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--fg);
+  background: none;
+  padding: 0;
+  word-break: break-all;
+}
+.preview-body {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--fg);
+  background: var(--bg);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 12px 14px;
+  margin: 12px 0 14px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+.preview-actions {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.preview-mailto {
+  font-size: 13px;
+  color: var(--accent);
+  border-bottom: 1px solid var(--hairline);
+  padding-bottom: 1px;
+}
+.preview-mailto:hover {
+  border-bottom-color: var(--accent);
+}
+
+@media (max-width: 720px) {
+  .chat-header .name { font-size: 34px; }
+  .chat-grid { grid-template-columns: 1fr; gap: 32px; }
+  .wechat-block { flex-direction: column; align-items: flex-start; }
+  .qr { width: 200px; }
+  .book-form { grid-template-columns: 1fr; }
+}

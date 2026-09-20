@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Let's Chat — Yuheng Wang</title>
+  <meta name="author" content="Yuheng Wang" />
+  <link rel="icon" href="./assets/img/favicon.png" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./chat.css" />
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme') || 'light';
+      if (t !== 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+</head>
+<body>
+
+<div class="theme-switch">
+  <button type="button" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+    <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+    <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+  </button>
+</div>
+
+<main class="wrap">
+
+  <p class="back"><a href="./index.html">← Back to homepage</a></p>
+
+  <header class="chat-header">
+    <h1 class="name">Let's Chat</h1>
+    <p class="bio">
+      Always happy to talk with <strong>VCs, researchers, and AI practitioners</strong> — whether it's
+      about agentic systems, multi-agent RL, TeachMaster, quant, or just a coffee.
+      Pick whichever way feels easier.
+    </p>
+  </header>
+
+  <section class="section chat-grid">
+
+    <!-- ============= WeChat ============= -->
+    <div class="chat-card">
+      <h2 class="chat-title">On WeChat</h2>
+      <p class="chat-desc">Fastest for a quick back-and-forth. Please mention where you found me.</p>
+
+      <div class="wechat-block">
+        <div class="qr">
+          <img src="./document/wechat.jpg" alt="WeChat QR" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="qr-fallback">QR&nbsp;code</div>
+        </div>
+        <div class="wechat-meta">
+          <p class="label">WeChat ID</p>
+          <p class="value" id="wechat-id">Hendrick_Wang0611</p>
+          <button type="button" class="copy-btn" data-copy="wechat-id">Copy</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============= Email booking ============= -->
+    <div class="chat-card">
+      <h2 class="chat-title">Book by Email</h2>
+      <p class="chat-desc">Fill this in — it opens your mail app with everything pre-written in English.</p>
+
+      <form id="book-form" class="book-form" onsubmit="return buildMail(event)">
+        <label>
+          <span>Your name</span>
+          <input type="text" name="name" required placeholder="Jane Doe" />
+        </label>
+
+        <label>
+          <span>Affiliation / role</span>
+          <input type="text" name="role" placeholder="e.g. Partner @ Sequoia · Researcher @ MIT" />
+        </label>
+
+        <label>
+          <span>You are a…</span>
+          <select name="kind" required>
+            <option value="">Select one</option>
+            <option value="VC / investor">VC / investor</option>
+            <option value="researcher / student">Researcher / student</option>
+            <option value="AI practitioner / engineer">AI practitioner / engineer</option>
+            <option value="founder">Founder</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Preferred date &amp; time</span>
+          <input type="datetime-local" name="when" required />
+        </label>
+
+        <label>
+          <span>Time zone</span>
+          <input type="text" name="tz" placeholder="e.g. GMT+8 / PT / ET" value="GMT+8" />
+        </label>
+
+        <label>
+          <span>Preferred channel</span>
+          <select name="channel">
+            <option value="Tencent Meeting">Tencent Meeting</option>
+            <option value="Zoom">Zoom</option>
+            <option value="Google Meet">Google Meet</option>
+            <option value="WeChat call">WeChat call</option>
+            <option value="Phone">Phone</option>
+            <option value="In person (Shanghai)">In person (Shanghai)</option>
+          </select>
+        </label>
+
+        <label class="full">
+          <span>What would you like to discuss? (a sentence is enough)</span>
+          <textarea name="topic" rows="3" required placeholder="A quick chat about agentic RL benchmarks…"></textarea>
+        </label>
+
+        <button type="submit" class="submit-btn">Compose email →</button>
+        <p class="form-note">Preview your email below, then copy or open it in your mail app.</p>
+
+        <div id="mail-preview" class="mail-preview" hidden>
+          <p class="preview-label">Composed email — copy or open manually</p>
+          <div class="preview-row">
+            <span class="preview-key">To</span>
+            <code>yuhengwang@sjtu.edu.cn</code>
+          </div>
+          <div class="preview-row">
+            <span class="preview-key">Subject</span>
+            <code id="pv-subject"></code>
+          </div>
+          <pre id="pv-body" class="preview-body"></pre>
+          <div class="preview-actions">
+            <button type="button" class="copy-btn" id="pv-copy">Copy email</button>
+            <a id="pv-mailto" class="preview-mailto" href="#">Open in mail app</a>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </section>
+
+</main>
+
+<script>
+  // Theme switcher
+  (function () {
+    var root = document.documentElement;
+    var btn = document.getElementById('theme-toggle');
+    function apply(t) {
+      if (t === 'light') root.removeAttribute('data-theme');
+      else root.setAttribute('data-theme', t);
+      localStorage.setItem('theme', t);
+    }
+    apply(localStorage.getItem('theme') || 'light');
+    btn.addEventListener('click', function () {
+      var cur = localStorage.getItem('theme') || 'light';
+      apply(cur === 'ink' ? 'light' : 'ink');
+    });
+  })();
+
+  // Copy WeChat ID
+  document.querySelectorAll('.copy-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const el = document.getElementById(btn.dataset.copy);
+      if (!el) return;
+      navigator.clipboard.writeText(el.textContent.trim()).then(() => {
+        const old = btn.textContent;
+        btn.textContent = 'Copied ✓';
+        setTimeout(() => (btn.textContent = old), 1500);
+      });
+    });
+  });
+
+  // Build the mailto: URL
+  function buildMail(e) {
+    e.preventDefault();
+    const f = e.target;
+    const g = k => (f.elements[k]?.value || '').trim();
+
+    const name = g('name');
+    const role = g('role');
+    const kind = g('kind');
+    const when = g('when');
+    const tz   = g('tz') || 'GMT+8';
+    const channel = g('channel');
+    const topic = g('topic');
+
+    const whenPretty = when
+      ? new Date(when).toLocaleString('en-US', {
+          weekday: 'long', year: 'numeric', month: 'long',
+          day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false,
+        })
+      : '';
+
+    const subject = `[Chat request] ${name} — ${topic.split('\n')[0].slice(0, 60)}`;
+
+    const body =
+`Hi Yuheng,
+
+I'd love to grab some time with you.
+
+  • Name        : ${name}
+  • Affiliation : ${role || '—'}
+  • Role        : ${kind}
+  • Proposed    : ${whenPretty} (${tz})
+  • Channel     : ${channel}
+
+What I'd like to discuss:
+${topic}
+
+Please let me know if the time works, or feel free to suggest another slot.
+
+Best,
+${name}
+`;
+
+    const href = `mailto:yuhengwang@sjtu.edu.cn?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    // Show the preview panel
+    document.getElementById('pv-subject').textContent = subject;
+    document.getElementById('pv-body').textContent = body;
+    document.getElementById('pv-mailto').href = href;
+    const box = document.getElementById('mail-preview');
+    box.hidden = false;
+    box.scrollIntoView({behavior: 'smooth', block: 'start'});
+
+    // Wire up copy-email button
+    const cp = document.getElementById('pv-copy');
+    cp.onclick = () => {
+      const text = `To: yuhengwang@sjtu.edu.cn\nSubject: ${subject}\n\n${body}`;
+      navigator.clipboard.writeText(text).then(() => {
+        cp.textContent = 'Copied ✓';
+        setTimeout(() => (cp.textContent = 'Copy email'), 1500);
+      });
+    };
+
+    return false;
+  }
+</script>
+
+</body>
+</html>
