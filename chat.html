@@ -119,7 +119,7 @@
           <p class="preview-label">Composed email — copy or open manually</p>
           <div class="preview-row">
             <span class="preview-key">To</span>
-            <code>yuhengwang@sjtu.edu.cn</code>
+            <code>yuhengwangagent@gmail.com</code>
           </div>
           <div class="preview-row">
             <span class="preview-key">Subject</span>
@@ -211,7 +211,7 @@ Best,
 ${name}
 `;
 
-    const href = `mailto:yuhengwang@sjtu.edu.cn?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const href = `mailto:yuhengwangagent@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     // Show the preview panel
     document.getElementById('pv-subject').textContent = subject;
@@ -224,7 +224,7 @@ ${name}
     // Wire up copy-email button
     const cp = document.getElementById('pv-copy');
     cp.onclick = () => {
-      const text = `To: yuhengwang@sjtu.edu.cn\nSubject: ${subject}\n\n${body}`;
+      const text = `To: yuhengwangagent@gmail.com\nSubject: ${subject}\n\n${body}`;
       navigator.clipboard.writeText(text).then(() => {
         cp.textContent = 'Copied ✓';
         setTimeout(() => (cp.textContent = 'Copy email'), 1500);
