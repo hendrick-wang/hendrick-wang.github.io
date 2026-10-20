@@ -165,12 +165,19 @@ a:hover {
 .header .bio + .bio { margin-top: 10px; }
 
 .avatar {
+  position: relative;
   width: 140px;
   height: 140px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.avatar > a {
+  display: block;
+  width: 100%;
+  height: 100%;
   border-radius: 50%;
   overflow: hidden;
   background: var(--card-bg);
-  flex-shrink: 0;
 }
 .avatar img {
   width: 100%;
@@ -178,6 +185,52 @@ a:hover {
   object-fit: cover;
   display: block;
   filter: grayscale(4%) contrast(1.02);
+  transition: transform 360ms ease, filter 360ms ease;
+}
+.avatar-caption {
+  position: absolute;
+  top: calc(100% + 14px);
+  right: 0;
+  width: 250px;
+  padding: 12px 14px;
+  border: 1px solid var(--hairline);
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+  color: var(--fg);
+  font-size: 13px;
+  font-style: italic;
+  line-height: 1.45;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-5px);
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+.avatar-caption::before {
+  position: absolute;
+  top: -6px;
+  right: 22px;
+  width: 10px;
+  height: 10px;
+  border-top: 1px solid var(--hairline);
+  border-left: 1px solid var(--hairline);
+  background: var(--bg);
+  content: '';
+  transform: rotate(45deg);
+}
+.avatar > a:hover img,
+.avatar > a:focus-visible img {
+  filter: grayscale(0) contrast(1.04);
+  transform: scale(1.04);
+}
+.avatar > a:hover .avatar-caption,
+.avatar > a:focus-visible .avatar-caption {
+  opacity: 1;
+  transform: translateY(0);
+}
+.avatar > a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
 }
 
 .contact {
