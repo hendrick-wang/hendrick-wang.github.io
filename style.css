@@ -171,8 +171,8 @@ a:hover {
   flex-shrink: 0;
   z-index: 1;
 }
-.avatar > a,
-.avatar > a:hover {
+.avatar > .avatar-image,
+.avatar > .avatar-image:hover {
   display: block;
   width: 100%;
   height: 100%;
@@ -206,6 +206,15 @@ a:hover {
   transform: translate(-8px, -50%);
   transition: opacity 220ms ease, transform 220ms ease;
 }
+.avatar-caption a {
+  color: inherit;
+  border-bottom-color: var(--faint);
+  font-weight: 600;
+}
+.avatar-caption a:hover {
+  color: var(--accent-hover);
+  border-bottom-color: currentColor;
+}
 .avatar-caption::before {
   position: absolute;
   top: 50%;
@@ -218,17 +227,26 @@ a:hover {
   content: '';
   transform: translateY(-50%) rotate(45deg);
 }
-.avatar > a:hover img,
-.avatar > a:focus-visible img {
+.avatar-caption::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -19px;
+  width: 18px;
+  content: '';
+}
+.avatar:hover img,
+.avatar:focus-within img {
   filter: grayscale(0) contrast(1.04);
   transform: scale(1.04);
 }
-.avatar > a:hover .avatar-caption,
-.avatar > a:focus-visible .avatar-caption {
+.avatar:hover .avatar-caption,
+.avatar:focus-within .avatar-caption {
   opacity: 1;
+  pointer-events: auto;
   transform: translate(0, -50%);
 }
-.avatar > a:focus-visible {
+.avatar > .avatar-image:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 4px;
 }
